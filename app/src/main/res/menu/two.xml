@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jiapeng.munedemo.MainActivity" >
+
+    <item
+        android:id="@+id/mune_size"
+        android:orderInCategory="100"
+        android:title="字体大小"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mune_size_big"
+                android:orderInCategory="100"
+                android:title="大号字体"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/mune_size_zhong"
+                android:orderInCategory="100"
+                android:title="中号字体"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/mune_size_small"
+                android:orderInCategory="100"
+                android:title="小号字体"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mune_setting"
+        android:orderInCategory="100"
+        android:title="普通菜单选项"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mune_color"
+        android:orderInCategory="100"
+        android:title="字体颜色"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/mune_size_red"
+                android:orderInCategory="100"
+                android:title="字体变红"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/mune_size_balke"
+                android:orderInCategory="100"
+                android:title="字体变黑"
+                app:showAsAction="never"/>
+
+
+        </menu>
+    </item>
+</menu>
